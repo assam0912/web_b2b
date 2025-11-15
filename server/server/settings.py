@@ -102,9 +102,9 @@ WSGI_APPLICATION = 'server.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your-db-name',
+        'NAME': 'web_b2b',
         'USER': 'root',
-        'PASSWORD': 'xxxxxxxx',
+        'PASSWORD': '123456',
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'CONN_MAX_AGE': 60,  # 连接复用时间
